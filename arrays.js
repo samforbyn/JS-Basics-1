@@ -22,9 +22,12 @@ colorCopy.push("chartreuse")
 const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
-numbers.pop()
-numbers.shift()
-let middleNums = numbers
+
+const middleNums = numbers.slice(1,4)
+
+// numbers.pop()
+// numbers.shift()
+// let middleNums = numbers
 console.log(middleNums)
 
 
